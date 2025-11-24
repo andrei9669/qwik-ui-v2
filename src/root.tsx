@@ -2,6 +2,17 @@ import { component$, isDev } from "@builder.io/qwik";
 import { QwikCityProvider, RouterOutlet } from "@builder.io/qwik-city";
 import { RouterHead } from "./components/router-head/router-head";
 
+import { ThemeProvider } from '@qwik-ui/themes';
+
+import {
+    ThemeBaseColors,
+    ThemeBorderRadiuses,
+    ThemeFonts,
+    ThemeModes,
+    ThemePrimaryColors,
+    ThemeStyles,
+} from '@qwik-ui/utils';
+
 import "./global.css";
 
 export default component$(() => {
@@ -25,7 +36,20 @@ export default component$(() => {
         <RouterHead />
       </head>
       <body lang="en">
-        <RouterOutlet />
+      <ThemeProvider
+          attribute="class"
+          enableSystem={false}
+          themes={[
+              ...Object.values(ThemeFonts),
+              ...Object.values(ThemeModes),
+              ...Object.values(ThemeStyles),
+              ...Object.values(ThemeBaseColors),
+              ...Object.values(ThemePrimaryColors),
+              ...Object.values(ThemeBorderRadiuses),
+          ]}
+      >
+          <RouterOutlet />
+      </ThemeProvider>
       </body>
     </QwikCityProvider>
   );
