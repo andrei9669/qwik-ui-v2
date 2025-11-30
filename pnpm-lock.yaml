@@ -11,6 +11,12 @@ importers:
       '@eslint/js':
         specifier: latest
         version: 9.39.1
+      '@floating-ui/dom':
+        specifier: ^1.7.4
+        version: 1.7.4
+      '@oddbird/popover-polyfill':
+        specifier: ^0.6.1
+        version: 0.6.1
       '@qwik-ui/headless':
         specifier: ^0.7.4
         version: 0.7.4(@builder.io/qwik@1.17.2(vite@7.1.11(@types/node@20.19.0)(jiti@2.6.1)(less@4.4.2)(lightningcss@1.30.2)(sass@1.94.2)(stylus@0.62.0)(yaml@2.8.1)))
@@ -787,6 +793,9 @@ packages:
 
   '@oddbird/popover-polyfill@0.4.3':
     resolution: {integrity: sha512-kBS0ZAwH8kZqFl0mV89KPK4cLYl2ZoKSfYngK4dz1eLAhKzTK0yu4LrvLdMeM7JhjWK6GxBtiY+cl1s6vR2pUg==}
+
+  '@oddbird/popover-polyfill@0.6.1':
+    resolution: {integrity: sha512-Papau51NPG+NajXvoEHCNT1CBJv4WIyvIGfH5gpJPLL8MZJt/4giC0jJ/mNZRtJmdzRuXWpUFB6QxkJa1RvMAQ==}
 
   '@parcel/watcher-android-arm64@2.5.1':
     resolution: {integrity: sha512-KF8+j9nNbUN8vzOFDpRMsaKBHZ/mcjEjMToVMJOhTozkDonQFFrRcfdLWn6yWKCmJKmdVxSgHiYvTCef4/qcBA==}
@@ -4225,6 +4234,8 @@ snapshots:
     optional: true
 
   '@oddbird/popover-polyfill@0.4.3': {}
+
+  '@oddbird/popover-polyfill@0.6.1': {}
 
   '@parcel/watcher-android-arm64@2.5.1':
     optional: true

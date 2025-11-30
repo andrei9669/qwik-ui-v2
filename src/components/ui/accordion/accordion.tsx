@@ -1,6 +1,6 @@
 import { component$, Slot, type PropsOf } from "@qwik.dev/core";
 
-import { Accordion as HeadlessAccordion } from "@qwik-ui/headless";
+import * as HeadlessAccordion from "~/components/root/acoordion/index";
 import { cn } from "@qwik-ui/utils";
 import ChevronDown from "~/components/icons/lu-chevron-down";
 

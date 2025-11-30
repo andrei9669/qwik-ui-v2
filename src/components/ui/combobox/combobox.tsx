@@ -1,5 +1,5 @@
 import { type PropsOf, Slot, component$ } from "@qwik.dev/core";
-import { Combobox as HeadlessCombobox } from "@qwik-ui/headless";
+import * as HeadlessCombobox from "~/components/root/combobox";
 import { cn } from "@qwik-ui/utils";
 import LuChevronDown from "~/components/icons/lu-chevron-down";
 

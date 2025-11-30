@@ -70,20 +70,20 @@ export default component$(() => {
                             Yes. It adheres to the WAI-ARIA design pattern.
                         </Accordion.Content>
                     </Accordion.Item>
-                    {/*<Accordion.Item>*/}
-                    {/*    <Accordion.Trigger>Is it styled?</Accordion.Trigger>*/}
-                    {/*    <Accordion.Content>*/}
-                    {/*        Yes. It comes with default styles that matches the other*/}
-                    {/*        components&apos; aesthetic.*/}
-                    {/*    </Accordion.Content>*/}
-                    {/*</Accordion.Item>*/}
-                    {/*<Accordion.Item>*/}
-                    {/*    <Accordion.Trigger>Is it animated?</Accordion.Trigger>*/}
-                    {/*    <Accordion.Content>*/}
-                    {/*        Yes. It's animated by default, but you can disable it if you*/}
-                    {/*        prefer.*/}
-                    {/*    </Accordion.Content>*/}
-                    {/*</Accordion.Item>*/}
+                    <Accordion.Item>
+                        <Accordion.Trigger>Is it styled?</Accordion.Trigger>
+                        <Accordion.Content>
+                            Yes. It comes with default styles that matches the other
+                            components&apos; aesthetic.
+                        </Accordion.Content>
+                    </Accordion.Item>
+                    <Accordion.Item>
+                        <Accordion.Trigger>Is it animated?</Accordion.Trigger>
+                        <Accordion.Content>
+                            Yes. It's animated by default, but you can disable it if you
+                            prefer.
+                        </Accordion.Content>
+                    </Accordion.Item>
                 </Accordion.Root>
             </section>
             {/*<section class="flex flex-col gap-5">*/}
@@ -189,30 +189,30 @@ export default component$(() => {
             {/*        <Label for="terms">Accept terms and conditions</Label>*/}
             {/*    </div>*/}
             {/*</section>*/}
-            {/*<section class="flex flex-col gap-5">*/}
-            {/*    <h1 class="text-2xl">Combobox</h1>*/}
-            {/*    <div>*/}
-            {/*        <Combobox.Root>*/}
-            {/*            <Combobox.Label>Fruits</Combobox.Label>*/}
-            {/*            <Combobox.Control>*/}
-            {/*                <Combobox.Input />*/}
-            {/*                <Combobox.Trigger>*/}
-            {/*                    <LuChevronDown />*/}
-            {/*                </Combobox.Trigger>*/}
-            {/*            </Combobox.Control>*/}
-            {/*            <Combobox.Popover gutter={8}>*/}
-            {/*                {fruits.map((fruit) => (*/}
-            {/*                    <Combobox.Item key={fruit}>*/}
-            {/*                        <Combobox.ItemLabel>{fruit}</Combobox.ItemLabel>*/}
-            {/*                        <Combobox.ItemIndicator>*/}
-            {/*                            <LuCheck />*/}
-            {/*                        </Combobox.ItemIndicator>*/}
-            {/*                    </Combobox.Item>*/}
-            {/*                ))}*/}
-            {/*            </Combobox.Popover>*/}
-            {/*        </Combobox.Root>*/}
-            {/*    </div>*/}
-            {/*</section>*/}
+            <section class="flex flex-col gap-5">
+                <h1 class="text-2xl">Combobox</h1>
+                <div>
+                    <Combobox.Root>
+                        <Combobox.Label>Fruits</Combobox.Label>
+                        <Combobox.Control>
+                            <Combobox.Input />
+                            <Combobox.Trigger>
+                                <LuChevronDown />
+                            </Combobox.Trigger>
+                        </Combobox.Control>
+                        <Combobox.Popover gutter={8}>
+                            {fruits.map((fruit) => (
+                                <Combobox.Item key={fruit}>
+                                    <Combobox.ItemLabel>{fruit}</Combobox.ItemLabel>
+                                    <Combobox.ItemIndicator>
+                                        <LuCheck />
+                                    </Combobox.ItemIndicator>
+                                </Combobox.Item>
+                            ))}
+                        </Combobox.Popover>
+                    </Combobox.Root>
+                </div>
+            </section>
             {/*<section class="flex flex-col gap-5">*/}
             {/*    <h1 class="text-2xl">Input</h1>*/}
             {/*    <div>*/}
