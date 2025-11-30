@@ -23,8 +23,6 @@
     "qwik": "qwik"
   },
   "devDependencies": {
-    "@builder.io/qwik": "^1.17.2",
-    "@builder.io/qwik-city": "^1.17.2",
     "@eslint/js": "latest",
     "@qwik-ui/headless": "^0.7.4",
     "@qwik-ui/styled": "^0.4.1",
@@ -35,7 +33,7 @@
     "@types/node": "20.19.0",
     "class-variance-authority": "0.7.1",
     "eslint": "9.32.0",
-    "eslint-plugin-qwik": "^1.17.2",
+    "eslint-plugin-qwik": "2.0.0-beta.13",
     "globals": "16.4.0",
     "nx": "^22.1.1",
     "prettier": "3.6.2",
@@ -48,7 +46,9 @@
     "typescript-plugin-css-modules": "latest",
     "undici": "*",
     "vite": "7.1.11",
-    "vite-tsconfig-paths": "^4.2.1"
+    "vite-tsconfig-paths": "^4.2.1",
+    "@qwik.dev/router": "2.0.0-beta.13",
+    "@qwik.dev/core": "2.0.0-beta.13"
   },
   "volta": {
     "node": "24.11.1",

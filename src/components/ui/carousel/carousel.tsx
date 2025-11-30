@@ -6,7 +6,7 @@ import {
   Slot,
   useContextProvider,
   type Signal,
-} from "@builder.io/qwik";
+} from "@qwik.dev/core";
 import type { VariantProps } from "class-variance-authority";
 import { Carousel as HCarousel } from "@qwik-ui/headless";
 import { cn } from "@qwik-ui/utils";
