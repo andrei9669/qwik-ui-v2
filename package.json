@@ -33,7 +33,9 @@
     "@types/node": "20.19.0",
     "class-variance-authority": "0.7.1",
     "eslint": "9.32.0",
-    "eslint-plugin-qwik": "2.0.0-beta.13",
+    "@qwik.dev/core": "https://pkg.pr.new/QwikDev/qwik/@qwik.dev/core@9627e22",
+    "@qwik.dev/router": "https://pkg.pr.new/QwikDev/qwik/@qwik.dev/router@9627e22",
+    "eslint-plugin-qwik": "https://pkg.pr.new/QwikDev/qwik/eslint-plugin-qwik@9627e22",
     "globals": "16.4.0",
     "nx": "^22.1.1",
     "prettier": "3.6.2",
@@ -46,9 +48,7 @@
     "typescript-plugin-css-modules": "latest",
     "undici": "*",
     "vite": "7.1.11",
-    "vite-tsconfig-paths": "^4.2.1",
-    "@qwik.dev/router": "2.0.0-beta.13",
-    "@qwik.dev/core": "2.0.0-beta.13"
+    "vite-tsconfig-paths": "^4.2.1"
   },
   "volta": {
     "node": "24.11.1",
